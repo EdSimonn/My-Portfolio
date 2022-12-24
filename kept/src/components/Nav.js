@@ -21,7 +21,10 @@ const Nav = () => {
   const handleClick = () => setOpen(!open);
 
   return (
-    <div
+    <motion.div
+      variants={navVariants}
+      initial="hidden"
+      whileInView="show"
       id="navbar"
       className="shadow-md fixed w-full top-0 left-0 opacity-85"
     >
@@ -116,7 +119,7 @@ const Nav = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
