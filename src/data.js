@@ -4,41 +4,41 @@ export const data = [
     img: "https://i.ibb.co/bNFpdVf/icon-1.png",
     name: "HTML",
   },
-  {
-    id: 2,
-    img: "https://i.ibb.co/z2XpL3B/icon-2.png",
-    name: "CSS",
-  },
-  {
-    id: 3,
-    img: "https://i.ibb.co/LvkPQ3S/R.png",
-    name: "JAVASCRIPT",
-  },
-  {
-    id: 4,
-    img: "https://i.ibb.co/Qv9ghML/icon-4.png",
-    name: "SASS",
-  },
-  {
-    id: 5,
-    img: "https://i.ibb.co/PQMfJGm/da-removebg-preview.png",
-    name: "TAILWIND",
-  },
-  {
-    id: 6,
-    img: "https://i.ibb.co/YRLjvcn/react.png",
-    name: "REACT",
-  },
-  {
-    id: 7,
-    img: "https://i.ibb.co/qJ2KHn6/R-1.png",
-    name: "NODE",
-  },
-  {
-    id: 8,
-    img: "https://i.ibb.co/wCkzkqb/git-removebg-preview.png",
-    name: "GIT",
-  },
+  // {
+  //   id: 2,
+  //   img: "https://i.ibb.co/z2XpL3B/icon-2.png",
+  //   name: "CSS",
+  // },
+  // {
+  //   id: 3,
+  //   img: "https://i.ibb.co/LvkPQ3S/R.png",
+  //   name: "JAVASCRIPT",
+  // },
+  // {
+  //   id: 4,
+  //   img: "https://i.ibb.co/Qv9ghML/icon-4.png",
+  //   name: "SASS",
+  // },
+  // {
+  //   id: 5,
+  //   img: "https://i.ibb.co/PQMfJGm/da-removebg-preview.png",
+  //   name: "TAILWIND",
+  // },
+  // {
+  //   id: 6,
+  //   img: "https://i.ibb.co/YRLjvcn/react.png",
+  //   name: "REACT",
+  // },
+  // {
+  //   id: 7,
+  //   img: "https://i.ibb.co/qJ2KHn6/R-1.png",
+  //   name: "NODE",
+  // },
+  // {
+  //   id: 8,
+  //   img: "https://i.ibb.co/wCkzkqb/git-removebg-preview.png",
+  //   name: "GIT",
+  // },
 ];
 
 export const project = [
@@ -86,7 +86,7 @@ export const project = [
   {
     id: 6,
     name: "Simple Weather App",
-    desc: "Simple waether app built with react js, tailwindcss and open weather API.",
+    desc: "Simple weather app built with react js, tailwindcss and open weather API.",
     tools: "React.js CSS OpenWeather-API",
     git: "https://github.com/EdSimonn/react-weather-app",
     demo: "https://location-weather-check.netlify.app/",

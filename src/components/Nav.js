@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import { Link } from "react-scroll";
+import { motion } from "framer-motion";
+import { navVariants } from "../utils/motion";
 
 const Nav = () => {
   var prevScrollpos = window.pageYOffset;
@@ -19,7 +21,13 @@ const Nav = () => {
   const handleClick = () => setOpen(!open);
 
   return (
-    <div id="navbar" className="shadow-md fixed w-full top-0 left-0 opacity-85">
+    <motion.div
+      variants={navVariants}
+      initial="hidden"
+      whileInView="show"
+      id="navbar"
+      className="shadow-md fixed w-full top-0 left-0 opacity-85"
+    >
       <div className="md:flex items-center justify-between bg-[#100720] py-6 md:px-10 px-7">
         <div className="font-bold text-2xl cursor-pointer flex items-center text-pink-600">
           <a href="/">
@@ -111,7 +119,7 @@ const Nav = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
