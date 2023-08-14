@@ -1,3 +1,5 @@
+/** @format */
+
 export const data = [
   {
     id: 1,
@@ -42,13 +44,21 @@ export const data = [
 ];
 
 export const project = [
+  // {
+  //   id: 1,
+  //   name: "E-commerce",
+  //   desc: "A fully mobile responsive, fullstack web store built with react on the frontend, strapi CMS for backend & redux for state management.",
+  //   tools: "React.js Redux React-Carousel Material-UI Strapi-CMS",
+  //   git: "https://github.com/EdSimonn/E-coomerce-app",
+  //   demo: "https://kicks-and-tees.netlify.app/",
+  // },
   {
     id: 1,
-    name: "E-commerce",
-    desc: "A fully mobile responsive, fullstack web store built with react on the frontend, strapi CMS for backend & redux for state management.",
-    tools: "React.js Redux React-Carousel Material-UI Strapi-CMS",
-    git: "https://github.com/EdSimonn/E-coomerce-app",
-    demo: "https://kicks-and-tees.netlify.app/",
+    name: "3D Studioz",
+    desc: ".",
+    tools: "React.js Tailwind Framer-Motion",
+    git: "https://github.com/EdSimonn/3D-Studioz/",
+    demo: "https://3d-studioz.vercel.app/",
   },
   {
     id: 2,
@@ -81,7 +91,6 @@ export const project = [
     tools: "Html CSS Javascript",
     git: "https://github.com/EdSimonn/Finer-Diners",
     demo: "https://finer-dinerss.netlify.app/",
-    
   },
   {
     id: 6,
@@ -90,7 +99,7 @@ export const project = [
     tools: "React.js CSS OpenWeather-API",
     git: "https://github.com/EdSimonn/react-weather-app",
     demo: "https://location-weather-check.netlify.app/",
-  }
+  },
 ];
 
 // mailto:ifeanyiko4u@gmail.com

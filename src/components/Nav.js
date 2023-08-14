@@ -21,10 +21,7 @@ const Nav = () => {
   const handleClick = () => setOpen(!open);
 
   return (
-    <div
-      id="navbar"
-      className="shadow-md fixed w-full top-0 left-0 opacity-85"
-    >
+    <div id="navbar" className="shadow-md fixed w-full top-0 left-0 opacity-85">
       <div className="md:flex items-center justify-between bg-[#100720] py-6 md:px-10 px-7">
         <div className="font-bold text-2xl cursor-pointer flex items-center text-pink-600">
           <a href="/">
